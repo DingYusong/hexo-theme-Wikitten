@@ -21,7 +21,7 @@
                                 <a href='<%= `${repertory_address}/raw/${file_path}` %>'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='<%= `mdedit://` + date(page.date, 'YYYY-MM-DD-') + page.title  + '.md' %>'> Edit </a>
+                                <a href='<%= `mdedit://` + date(post.date, 'YYYY-MM-DD-') + post.title  + '.md' %>'> Edit </a>
                             </div>
                             <div class="article-meta-button">
                                 <a href='<%= `${repertory_address}/commits/${file_path}` %>'> History </a>
